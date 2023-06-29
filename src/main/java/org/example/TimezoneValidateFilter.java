@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.time.DateTimeException;
 import java.time.ZoneId;
 
-@WebFilter(value = "/*")
+@WebFilter(value = "/time")
 public class TimezoneValidateFilter extends HttpFilter {
     @Override
     protected void doFilter(HttpServletRequest req,
